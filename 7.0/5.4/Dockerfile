@@ -16,11 +16,11 @@ RUN echo "deb http://repos.zend.com/zend-server/7.0/deb_apache2.4 server non-fre
 RUN apt-get update && apt-get install -y zend-server-php-5.4 && /usr/local/zend/bin/zendctl.sh stop
 
 EXPOSE 80
-EXPOSE 443
-EXPOSE 10081
-EXPOSE 10082
-EXPOSE 10060
-EXPOSE 10061
-EXPOSE 10062
+#EXPOSE 443
+#EXPOSE 10081
+#EXPOSE 10082
+#EXPOSE 10060
+#EXPOSE 10061
+#EXPOSE 10062
 
 CMD ["/usr/local/bin/run"]
