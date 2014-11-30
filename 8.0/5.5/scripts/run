@@ -64,5 +64,4 @@ Your application is available at http://$APP_IP
 To access Zend Server, navigate to http://$APP_IP:10081
 Your admin password is `cat /root/zend-password`"
 
-echo "nothing"
 exec /usr/local/bin/nothing
